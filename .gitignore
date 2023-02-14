@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+/yarn.lock
+/.pnp
+.pnp.js
+
+# build output
+/build
+/dist
+
+# cache and logs
+/.cache
+/log
+
+# testing
+/coverage
+
+# IDE files
+/.vscode
+/.idea
+
+# misc
+.DS_Store
+Thumbs.db
+
