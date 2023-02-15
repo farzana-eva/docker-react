@@ -5,4 +5,4 @@ services:
   before_install:
     - docker build -t farzana/docker-react -f Dockerfile.dev .
 script:
-  - docker run -e CI=true farzana/docker-react npm run test  
+  - docker run farzana/docker-react npm run test -- --coverage  
